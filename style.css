@@ -1,0 +1,139 @@
+* {
+  font-family: "Inter Tight", sans-serif;
+  color: #343a40;
+}
+
+.parentDiv {
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
+img {
+  border-radius: 10px;
+}
+.headerSection {
+  display: flex;
+  font-size: 18px;
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+
+.headerleft {
+  margin-top: 55px;
+}
+
+.headerleft > h1 {
+  line-height: 1.1;
+  letter-spacing: -1px;
+  font-size: 44px;
+  text-shadow: 0px 10px 3px rgba(0, 0, 0, 0.061);
+}
+
+.headerleft > p {
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+.feature-icon {
+  width: 34px;
+  height: 34px;
+}
+.btn:link,
+.btn:visited {
+  background-color: #343a40;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+
+  display: inline-block;
+  font-weight: 700px;
+}
+.btn:hover,
+.btn:active {
+  background-color: #adb5bd;
+}
+
+.btn--big {
+  padding: 16px 32px;
+  border-radius: 8px;
+}
+.btn--small {
+  font-size: 10px;
+  padding: 4px 12px;
+  margin-left: 20%;
+  border-radius: 3px;
+}
+
+.headerRight {
+  width: 80%;
+}
+.imgRight {
+  margin-top: 60px;
+  margin-left: 200px;
+  width: 350px;
+  height: 400px;
+  border-radius: 2%;
+}
+
+.grid-3-col {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-size: 15px;
+  justify-content: space-around;
+  column-gap: 80px;
+  line-height: 20px;
+  margin-bottom: 100px;
+}
+
+.userFeedback {
+  margin-top: 50px;
+  display: flex;
+  gap: 80px;
+  font-size: 15px;
+  line-height: 1.5;
+  background-color: #ced4da;
+  box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.061);
+  border-radius: 10px;
+  margin-bottom: 80px;
+}
+
+.feedback {
+  margin-top: 3%;
+}
+
+.userImg {
+  width: 400px;
+  height: auto;
+}
+
+.topSection {
+  font-size: 15px;
+}
+
+.imgSection > img {
+  width: 300px;
+  height: auto;
+}
+.imgSection {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Type {
+  display: flex;
+  justify-content: flex-start;
+  gap: 200px;
+}
+
+ul > li {
+  list-style-type: disc;
+  margin-bottom: 10px;
+}
+
+.footer {
+  margin-top: 10%;
+  margin-bottom: 40px;
+  font-size: 15px;
+}
